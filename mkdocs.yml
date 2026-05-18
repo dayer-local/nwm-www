@@ -28,7 +28,7 @@ theme:
 extra_css:
   - stylesheets/style.css
 
-copyright: Copyright &copy; 2026 <a href="https://welshmesh.pysgod.xyz/copyright/">Pysgod Media / Not affiliated with Meshtastic LLC</a>
+copyright: Copyright &copy; 2026 <a href="https://welshmesh.pysgod.xyz/copyright/">Pysgod Media<a/> / Not affiliated with Meshtastic LLC
 
 extra:
   social:
@@ -42,6 +42,10 @@ nav:
     - Getting Started: 
         - Introduction: docs/getting-started.md
         - Node Settings: docs/node-settings.md
+    - Guidelines: 
+        - Typical Practices: docs/mesh-etiquette.md
+    - Extra: 
+        - Node Choices: docs/node-choices.md
 
 markdown_extensions:
   - admonition
