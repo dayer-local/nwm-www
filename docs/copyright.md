@@ -2,7 +2,7 @@
 
 **Effective Date:** March 9, 2026  
 **Website:** [https://welshmesh.pysgod.xyz](https://welshmesh.pysgod.xyz)  
-**Operated By:** Pysgod Media /
+**Operated By:** Pysgod Media / with help from [DayerFD Media](https://dayerfd.xyz)  
 **Email:** pysgodmedia@pysgod.xyz
 
 ---
