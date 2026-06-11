@@ -1,3 +1,7 @@
+!!! warning "Closure Notice"
+    We are very sorry but this project is now in archive, You will still be able to access the **New Welsh Mesh** discord server and the **New Welsh Mesh** website but no acive development will continue, Thank you for supporting us.
+
+
 # Welcome to the New Welsh Mesh
 
 ![The NWM Logo](nwmlogo.png){ width="35%" }
