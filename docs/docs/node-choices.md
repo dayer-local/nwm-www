@@ -1,3 +1,7 @@
+!!! warning "Closure Notice"
+    **The New Welsh Mesh project is in archive, you can still access the discord server and website but no active development will continue**
+
+
 # Node Choices
 *Picking the right hardware for the Welsh Mesh*
 
