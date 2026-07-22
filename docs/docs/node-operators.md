@@ -34,6 +34,7 @@ Everyday personal and home nodes, the ones people actually message from.
 | Node Name | Short | Area | Type | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | DayerFDeck | FDTD | Gilfach Goch / Tonyrefail | Client | I started this, its pretty cool tbh |
+| DayerIDV3 | IDV3 | Gilfach Goch / Tonyrefail | Client | N/A |
 
 ## Repeater Operators
 Fixed infrastructure nodes that sit somewhere useful and extend the mesh. The **Owner** column is here because a repeater usually has nobody sitting at it, so people need to know who runs it if something goes wrong.
