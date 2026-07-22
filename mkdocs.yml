@@ -45,8 +45,13 @@ nav:
     - Setup Guide: docs/getting-started.md
     - Node Choices: docs/node-choices.md
     - Node Configuration: docs/node-settings.md
+    - Antennas: docs/antennas.md
+  - Understanding Your Node:
+    - Device Roles: docs/device-roles.md
+    - Rebroadcast & Intervals: docs/device-options.md
   - Using the Mesh:
     - Mesh Etiquette: docs/mesh-etiquette.md
+    - FAQ & Troubleshooting: docs/faq.md
   - Community:
     - Get Involved: docs/get-involved.md
     - Node Operators: docs/node-operators.md

@@ -55,6 +55,8 @@ This is important. You must set your region to **EU_868** before transmitting an
 
 This is usually the default, but it's worth checking. Client mode means your device will send and receive messages, and will also help route packets from other nearby nodes.
 
+Wondering what all the other options in that dropdown do? See [Device Roles](device-roles.md).
+
 ---
 
 ### Step 4: Configure LoRa Settings
@@ -95,22 +97,25 @@ Same as the client guide. Connect via Bluetooth, then set your region to **EU_86
 
 ---
 
-### Step 2: Set the Device Role
+### Step 2: Choose the Device Role
 
-This is where it differs from a client node.
+This is where it differs from a client node, and it's worth getting right, because the wrong choice here can actually make the mesh worse for everyone.
 
 1. Go to **Settings > Radio Configuration > Device**.
-2. Set the **Role** to one of the following:
+2. Set the **Role**. For a fixed node, the sensible options are:
 
 | Role | When to use it |
 | :--- | :--- |
-| **ROUTER** | Pure repeater. Prioritises routing traffic for others. Doesn't need a user. |
-| **ROUTER_CLIENT** | Repeater that also lets you use it as a client occasionally. Good if you want to check in on the network remotely. |
+| **CLIENT** | Still fine for most fixed nodes. It relays messages when no one else has, without pushing in ahead of everyone. |
+| **ROUTER** | Only for a genuinely well-placed node: high up, permanent, with a clear view over the area. It cuts in ahead of other nodes to relay, which is great from a hilltop and harmful from a shelf indoors. |
+| **ROUTER_LATE** | For reaching a pocket of the mesh the existing routers can't see (behind a hill, down a valley). It always relays but gives way politely to other nodes. |
 
-For a dedicated fixed node, **ROUTER** is the right choice. If you plan to occasionally message through it, use **ROUTER_CLIENT**.
+If your node isn't in a strong, high, permanent position, **leave it on CLIENT**. A badly-placed ROUTER does more harm than good.
 
-!!! note "Why not just use Client?"
-    You could, but ROUTER mode tells the network to treat your node as infrastructure. Other nodes will prefer routing through it, and it handles packets more efficiently than a CLIENT node would.
+!!! warning "ROUTER_CLIENT is gone"
+    Older guides tell you to use **ROUTER_CLIENT** for a repeater you can also message through. That role was removed in firmware 2.3.15. Use **CLIENT**, or **ROUTER** if it's proper infrastructure.
+
+There's a full breakdown of every role, and which to pick, on the [Device Roles](device-roles.md) page.
 
 ---
 

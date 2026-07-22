@@ -25,6 +25,7 @@ Not comfortable editing the page? No problem, drop your details in the [Discord]
 | Node Name | Short | Area | Type | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | DayerFDeck | FDTD | Gilfach Goch / Tonyrefail | Client | I started this, its pretty cool tbh |
+| DayerRP | DRPT | Gilfach Goch / Tonyrefail | Router / Repeater | This is FDTD's repeater |
 
 *Add yourself above. One node per row, keep it tidy.*
 
