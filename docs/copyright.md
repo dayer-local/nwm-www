@@ -2,15 +2,13 @@
 
 **Effective Date:** March 9, 2026  
 **Website:** [https://welshmesh.pysgod.xyz](https://welshmesh.pysgod.xyz)  
-**Operated By:** Pysgod Media / with help from [DayerFD Media](https://dayerfd.xyz)  
-**Email:** pysgodmedia@pysgod.xyz
+**Operated By:** Pysgod Interactive 
+**Email:** hello@pysgod.xyz
 
 ---
 
 ## 1. Ownership of Website Content
-All original content, text, layouts, graphics, and documentation provided on **https://welshmesh.pysgod.xyz** are the exclusive intellectual property of **Pysgod Media**, unless otherwise stated. 
-
-As a sole trader operating under the name Pysgod Media, we hold the copyright to the bespoke content and structural design of this website. No part of this website’s original material may be reproduced, distributed, or transmitted in any form or by any means without the prior written permission of Pysgod Media.
+All content featured on welshmesh.pysgod.xyz is owned by the operator of the site featured above, this isn't a generic copyright template featured from google it just felt weird saying Pysgod Interactive over and over because it sounds corporate and thats not who I am, Anyways all images, videos, logos, code, conent solely belongs to the operator of welshmesh.pysgod.xyz
 
 ## 2. Meshtastic® Trademark Disclaimer and Attribution
 "Welsh Mesh" is an independent community mesh project. **This website and project are NOT affiliated with, maintained, authorized, sponsored, or endorsed by the Meshtastic project or Meshtastic LLC.**
@@ -31,5 +29,5 @@ The technical infrastructure and visual styling of this website are built using 
 We are committed to respecting the intellectual property rights of others. Any other third-party trademarks, registered trademarks, product names, hardware manufacturers (such as LILYGO, Heltec, or RAKwireless), or company logos mentioned on this website are the property of their respective owners. We make no claim of ownership over third-party open-source software, radio protocols, or physical hardware discussed on this site.
 
 ## 5. Contact Information
-If you have any questions or concerns regarding this policy, or if you are a copyright holder and believe that any content on this website infringes upon your intellectual property rights, please contact **Pysgod Media** directly. 
+If you have any questions or concerns regarding this policy, or if you are a copyright holder and believe that any content on this website infringes upon your intellectual property rights, please contact the operator directly.
 
