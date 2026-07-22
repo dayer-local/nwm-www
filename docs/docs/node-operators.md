@@ -33,7 +33,7 @@ Everyday personal and home nodes, the ones people actually message from.
 
 | Node Name | Short | Area | Type | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| DayerFDeck | FDTD | Gilfach Goch / Tonyrefail | Client | I started this, its pretty cool tbh |
+| DayerFDeck | FDTD | Gilfach Goch / Tonyrefail | Client | N/A |
 | DayerIDV3 | IDV3 | Gilfach Goch / Tonyrefail | Client | N/A |
 
 ## Repeater Operators
@@ -41,7 +41,7 @@ Fixed infrastructure nodes that sit somewhere useful and extend the mesh. The **
 
 | Node Name | Short | Area | Type | Owner | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| DayerRP | DRPT | Gilfach Goch / Tonyrefail | Router / Repeater | DayerFDeck | This is FDTD's repeater |
+| DayerRP | DRPT | Gilfach Goch / Tonyrefail | Router / Repeater | DayerFDeck | N/A |
 
 ## Other Operators
 Special-purpose nodes, GPS trackers, sensors, that sort of thing.
