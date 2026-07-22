@@ -13,7 +13,7 @@ Building a resilient, off-grid communications network across Wales using Meshtas
 The **New Welsh Mesh** is a community-driven initiative to expand Meshtastic coverage throughout the valleys, coastlines, and towns of Wales. By deploying low-power, long-range radio nodes, we are building a decentralized network independent of cellular towers.
 
 !!! note "Note"
-    This project is currently in the **Early Alpha** phase. We are looking for node operators in the Tonyrefail areas.
+    This project is currently in the **Early Alpha** phase. We are looking for node operators in the Tonyrefail areas. But if your not in Tonyrefail, Join us anyway!
 
 ## Recommended Hardware
 To join the mesh, we recommend the following starter devices:
