@@ -22,14 +22,21 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
     - navigation.tabs
     - navigation.sections
+    - navigation.top
     - content.code.copy
     - content.action.edit
     - navigation.footer
 
 extra_css:
   - stylesheets/style.css
+
+extra_javascript:
+  - javascripts/header-shrink.js
 
 copyright: Copyright &copy; 2026 <a href="https://welshmesh.pysgod.xyz/copyright/">Pysgod Media<a/> / Not affiliated with Meshtastic LLC
 

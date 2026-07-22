@@ -202,3 +202,90 @@ hr {
 [data-md-color-scheme="slate"] .md-nav__link:hover {
     color: var(--md-accent-fg-color) !important;
 }
+
+/* --- 8. ANIMATIONS & MOTION --- */
+/* The big smoothness win is `navigation.instant` in mkdocs.yml: pages swap in
+   place like an app instead of doing a full white-flash reload. Everything
+   below is polish on top, and all of it backs off if the visitor's system is
+   set to reduce motion. */
+
+/* Smooth scrolling for the table of contents and anchor links */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem; /* so a linked heading clears the fixed header */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    /* Content gently rises and fades in. This re-runs on every instant page
+       load, so moving between pages feels like a soft transition. */
+    .md-content__inner > * {
+        animation: nwm-fade-up 0.4s ease both;
+    }
+
+    /* A light stagger on the first few blocks so the page feels alive */
+    .md-content__inner > *:nth-child(1) { animation-delay: 0s; }
+    .md-content__inner > *:nth-child(2) { animation-delay: 0.04s; }
+    .md-content__inner > *:nth-child(3) { animation-delay: 0.08s; }
+    .md-content__inner > *:nth-child(4) { animation-delay: 0.12s; }
+}
+
+@keyframes nwm-fade-up {
+    from { opacity: 0; transform: translateY(10px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Buttons lift slightly when you hover them */
+.md-typeset .md-button {
+    transition: transform 0.15s ease, box-shadow 0.15s ease,
+                background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+.md-typeset .md-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+}
+
+/* Table rows highlight softly as you run down them (teal tint works in both themes) */
+.md-typeset table:not([class]) tbody tr {
+    transition: background-color 0.2s ease;
+}
+.md-typeset table:not([class]) tbody tr:hover {
+    background-color: rgba(0, 191, 165, 0.08);
+}
+
+/* Smooth colour changes on links, nav and tabs */
+.md-typeset a,
+.md-nav__link,
+.md-tabs__link {
+    transition: color 0.2s ease, opacity 0.2s ease;
+}
+
+/* Header shrinks as you scroll down and expands again at the top.
+   The `md-header--shrunk` class is toggled by javascripts/header-shrink.js */
+.md-header__inner {
+    transition: height 0.25s ease;
+}
+.md-logo img {
+    transition: height 0.25s ease;
+}
+.md-header {
+    transition: box-shadow 0.25s ease;
+}
+.md-header--shrunk .md-header__inner {
+    height: 3rem;
+}
+.md-header--shrunk .md-logo img {
+    height: 2.25rem !important;
+}
+.md-header--shrunk {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* Respect anyone who prefers reduced motion: strip it all back */
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+        animation-duration: 0.001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.001ms !important;
+    }
+}
