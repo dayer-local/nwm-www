@@ -1,0 +1,204 @@
+/* --- 1. MATERIAL FOR MKDOCS ENGINE OVERRIDES --- */
+/* These variables control the actual theme components like the header and buttons */
+:root, [data-md-color-scheme="slate"] {
+    --md-primary-fg-color:        #009485; /* Your Meshtastic Green */
+    --md-primary-fg-color--dark: #007a6e;
+    --md-primary-bg-color:        #ffffff;
+    --md-accent-fg-color:         #00bfa5;
+}
+
+/* Make the header logo larger and adjust header height */
+.md-logo img {
+    height: 3.5rem !important; 
+    width: auto;
+}
+
+.md-header__inner {
+    height: 4.5rem;
+}
+
+/* Hide the default "Made with Material" footer info */
+.md-copyright {
+    display: block; /* It was set to none, so ignore like the past 812381239681237 pushes to mkdocs.yml because I didnt realize this was here
+}
+
+/* --- 2. YOUR ORIGINAL DESIGN VARIABLES --- */
+:root {
+    --md-primary: #009485;
+    --md-accent: #00bfa5;
+    --md-text: #2e3c43;
+    --md-text-light: #737373;
+    --md-bg: #ffffff;
+    --md-code-bg: #f5f5f5;
+    --md-sidebar-bg: #f0f0f0;
+    --md-border: #e0e0e0;
+    --font-stack: 'Roboto', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+    
+    /* Light Mode Admonition Backgrounds */
+    --nwm-note-bg: #e3f2fd;
+    --nwm-warning-bg: #ffebee;
+    --nwm-info-bg: #e8f5e9;
+}
+
+/* Dark Mode Admonition Backgrounds Override */
+[data-md-color-scheme="slate"] {
+    --nwm-note-bg: #0d47a120;
+    --nwm-warning-bg: #b71c1c20;
+    --nwm-info-bg: #1b5e2020;
+}
+
+/* --- 3. TYPOGRAPHY & LAYOUT --- */
+body {
+    font-family: var(--font-stack);
+    color: var(--md-text);
+    line-height: 1.6;
+}
+
+h1 { font-size: 2.2rem; font-weight: 300; margin-bottom: 0.5rem; color: #000; }
+h2 { font-size: 1.6rem; font-weight: 400; margin-top: 2.5rem; margin-bottom: 1rem; color: #000; }
+
+/* Ensure headings stay white/visible in dark mode */
+[data-md-color-scheme="slate"] h1, 
+[data-md-color-scheme="slate"] h2 { 
+    color: #fff; 
+}
+
+.lead { 
+    font-size: 1.2rem; 
+    color: var(--md-text-light); 
+    margin-bottom: 2rem; 
+}
+
+hr { 
+    border: 0; 
+    border-top: 1px solid var(--md-border); 
+    margin: 2rem 0; 
+}
+
+/* --- 4. TABLES (Material Overrides) --- */
+.md-typeset table:not([class]) {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 0.9rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    display: table; /* Fixes potential overflow issues */
+}
+
+.md-typeset th { 
+    background-color: var(--md-sidebar-bg) !important; 
+    font-weight: 700; 
+    padding: 12px;
+    color: var(--md-text);
+}
+
+.md-typeset td {
+    padding: 12px;
+    border-bottom: 1px solid var(--md-border);
+}
+
+/* --- 5. ADMONITIONS (Note/Warning/Info) --- */
+.md-typeset .admonition {
+    border-radius: 0 4px 4px 0;
+    border-left: 4px solid;
+}
+
+.md-typeset .admonition-title {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Custom Admonition Colors with Adaptive Backgrounds */
+.md-typeset .admonition.note { 
+    border-color: #2196f3; 
+    background-color: var(--nwm-note-bg); 
+}
+.md-typeset .admonition.warning { 
+    border-color: #f44336; 
+    background-color: var(--nwm-warning-bg); 
+}
+.md-typeset .admonition.info { 
+    border-color: #4caf50; 
+    background-color: var(--nwm-info-bg); 
+}
+
+/* --- 6. LISTS & MARKERS --- */
+.md-content ol, 
+.md-content ul {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;  
+    line-height: 1.7;    
+}
+
+.md-content li {
+    margin-bottom: 0.5rem;
+}
+
+.md-content li::marker {
+    color: var(--md-primary);
+    font-weight: 700;      
+}
+
+/* --- 7. BUTTONS --- */
+.md-button--primary {
+    background-color: var(--md-primary) !important;
+    color: #fff !important;
+    border-color: var(--md-primary) !important;
+    padding: 10px 20px;
+    border-radius: 2px;
+    transition: background 0.2s;
+}
+
+.md-button--primary:hover {
+    background-color: var(--md-accent) !important;
+    border-color: var(--md-accent) !important;
+}
+
+/* --- DARK MODE TEXT COLOR FIXES --- */
+[data-md-color-scheme="slate"] {
+    /* Main body text color */
+    --md-typeset-color: #ffffff;
+    
+    /* Ensure all paragraphs and lists in the main content are white */
+    --md-text-fg-color: #ffffff;
+}
+
+[data-md-color-scheme="slate"] .md-typeset {
+    color: #ffffff;
+}
+
+/* Specific fix for Admonition (Info/Note/Warning) text in dark mode */
+[data-md-color-scheme="slate"] .md-typeset .admonition,
+[data-md-color-scheme="slate"] .md-typeset .admonition p {
+    color: #ffffff !important;
+}
+
+/* Ensure the 'lead' text on the homepage is also visible */
+[data-md-color-scheme="slate"] .lead {
+    color: #b0bec5; /* Light grey for the lead text */
+}
+
+/* --- DARK MODE SIDEBAR & TOC FIXES --- */
+[data-md-color-scheme="slate"] {
+    /* Fixes the Left Navigation Links */
+    --md-nav-link-color: #ffffff;
+    --md-nav-link-color--hover: #00bfa5;
+
+    /* Fixes the Right Table of Contents Links */
+    --md-toc-link-color: #ffffff;
+    --md-toc-link-color--hover: #00bfa5;
+}
+
+/* Specific override for the Navigation labels and links */
+[data-md-color-scheme="slate"] .md-nav__link,
+[data-md-color-scheme="slate"] .md-nav__title,
+[data-md-color-scheme="slate"] .md-sidebar {
+    color: #ffffff !important;
+}
+
+/* Ensure the active/hovered link in the TOC stands out */
+[data-md-color-scheme="slate"] .md-nav__link--active,
+[data-md-color-scheme="slate"] .md-nav__link:hover {
+    color: var(--md-accent-fg-color) !important;
+}
