@@ -82,6 +82,9 @@ That's it, you're on the mesh!
 
 A **Repeater** (or Router) node is a fixed node, usually placed somewhere high up, that exists purely to extend the network's range. It doesn't need a user nearby; it just sits there and passes messages along.
 
+!!! warning "Fixed or high-traffic node? Have a word with us first"
+    Before you put up a fixed node like a **repeater** or a **base station**, or run anything heavy on the mesh such as a high hop limit, give the admins a shout on the [Discord](https://discord.gg/4VhKqbH39W) before you switch it on. One badly-placed or badly-set-up node like this can knock the whole network about for everyone, and a quick chat first saves a lot of hassle.
+
 ### Prerequisites
 
 * A Meshtastic device flashed with firmware.

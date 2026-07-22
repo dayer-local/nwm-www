@@ -57,6 +57,9 @@ Don't set your node name to match someone else's. It causes confusion, makes the
 ### Use the Right Device Role
 By default your node should be set to **CLIENT**. It's tempting to set a fixed node to **ROUTER** to "help the mesh", but a ROUTER in a poor spot (indoors, low down) actually makes things worse: it pushes in ahead of everyone else to relay, from a position that can't relay well. Only use ROUTER for a genuinely high, permanent, well-placed node. If in doubt, stay on CLIENT. There's a full explanation on the [Device Roles](device-roles.md) page.
 
+!!! warning "Fixed or high-traffic node? Have a word with us first"
+    Before you put up a fixed node like a **repeater** or a **base station**, or run anything heavy on the mesh such as a high hop limit, give the admins a shout on the [Discord](https://discord.gg/4VhKqbH39W) before you switch it on. One badly-placed or badly-set-up node like this can knock the whole network about for everyone, and a quick chat first saves a lot of hassle.
+
 ### Don't Flood the Network
 LoRa is a shared, low-bandwidth radio channel. Everyone in range is sharing the same airtime. Keep that in mind.
 

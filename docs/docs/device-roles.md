@@ -42,7 +42,7 @@ A quiet node that only transmits when it has to, meant for stealth or saving pow
 > In the app: *"Device that only broadcasts as needed for stealth or power savings."*
 
 ### CLIENT_BASE
-A home base station. It always relays messages to and from your **favourited** nodes, and treats everything else like a normal CLIENT. Useful if you've got a fixed home node and specific nodes you always want it to help.
+A home base station. It always relays messages to and from your **favourited** nodes, and treats everything else like a normal CLIENT. Useful if you've got a fixed home node and specific nodes you always want it to help. Because it's a fixed, always-on node, give the admins a heads-up on the [Discord](https://discord.gg/4VhKqbH39W) before you set one up.
 
 > In the app: *"Personal base station: always rebroadcasts packets from or to its favorited nodes."*
 
@@ -50,6 +50,9 @@ A home base station. It always relays messages to and from your **favourited** n
 
 !!! warning "Don't reach for these by default"
     These roles make your node **push in ahead of others** to relay traffic. In the right place (high up, permanent, a clear view over the area) that's brilliant. In the wrong place (indoors, low down, poor coverage) it makes the whole mesh worse for everyone, because a badly-placed node is now jumping the queue. Only use these for a genuine, well-sited fixed node.
+
+!!! warning "Fixed or high-traffic node? Have a word with us first"
+    Before you put up a fixed node like a **repeater** or a **base station**, or run anything heavy on the mesh such as a high hop limit, give the admins a shout on the [Discord](https://discord.gg/4VhKqbH39W) before you switch it on. One badly-placed or badly-set-up node like this can knock the whole network about for everyone, and a quick chat first saves a lot of hassle.
 
 ### ROUTER
 Infrastructure node that always rebroadcasts every message once, cutting in ahead of ordinary nodes to do it. It stays visible in the nodes list. This is the one you want for a proper hilltop or rooftop repeater with a real view over the area. **Not** for a node sat on a shelf indoors.

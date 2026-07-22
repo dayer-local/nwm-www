@@ -20,6 +20,9 @@ If you've got somewhere high up with a bit of power spare, a loft, a roof, the t
 
 There's a full guide in [Node Configuration](node-settings.md) under the repeater section. If you set one up, get in touch and we'll list it.
 
+!!! warning "Fixed or high-traffic node? Have a word with us first"
+    Before you put up a fixed node like a **repeater** or a **base station**, or run anything heavy on the mesh such as a high hop limit, give the admins a shout on the [Discord](https://discord.gg/4VhKqbH39W) before you switch it on. One badly-placed or badly-set-up node like this can knock the whole network about for everyone, and a quick chat first saves a lot of hassle.
+
 ## Help out on Discord
 Most of the day-to-day chat happens on the [Discord](https://discord.gg/4VhKqbH39W). Answering setup questions, welcoming new people, or just letting everyone know your node is live all helps. If you'd like to help keep things running, we could use a hand moderating too.
 
