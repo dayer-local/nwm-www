@@ -7,5 +7,3 @@ Welcome to the New Welsh Mesh Web Repository, this repoisitory uses the GitHub P
 If you wish to contribute or join our project, see the website
 
 ------------------------------------
-
-New Welsh Mesh - Pysgod Media
