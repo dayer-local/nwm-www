@@ -1,0 +1,38 @@
+name: Check links
+
+# Catches broken links and pages that don't exist, on every pull request
+# and once a week to catch link rot. Keeps the "many pages are broken"
+# problem from creeping back in.
+on:
+  pull_request:
+  schedule:
+    - cron: '0 8 * * 1'  # Monday, 08:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  linkchecker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # discord.gg, google search and github block automated checkers,
+          # so we skip them rather than get false failures. Everything else,
+          # internal links included, gets checked.
+          args: >-
+            --verbose
+            --no-progress
+            --exclude-mail
+            --exclude 'discord\.gg'
+            --exclude 'google\.com/search'
+            --exclude 'github\.com'
+            './**/*.md'
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

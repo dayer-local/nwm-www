@@ -1,7 +1,3 @@
-!!! warning "Closure Notice"
-    We are very sorry but this project is now in archive, You will still be able to access the **New Welsh Mesh** discord server and the **New Welsh Mesh** website but no acive development will continue, Thank you for supporting us.
-
-
 # Welcome to the New Welsh Mesh
 
 ![The NWM Logo](nwmlogo.png){ width="35%" }
@@ -28,10 +24,20 @@ To join the mesh, we recommend the following starter devices:
 | **RAK WisBlock** | Best for Solar/Outdoor nodes | £40 |
 | **T-Beam** | Great for GPS tracking | £35 |
 
+Want the full rundown? The [Node Choices](docs/node-choices.md) page compares every board worth considering.
+
 ## Get Involved
-Ready to join? Flash your device with the latest firmware and set your region to **EU868**.
+Ready to join? Grab a device, flash it, and set your region to **EU_868**. The setup guide walks you through the whole thing.
+
+The mesh only works because people run nodes, so if you fancy helping build it out, there's plenty to do, from sticking a single node on a windowsill to running a repeater on a hill.
 
 [View Setup Guide](docs/getting-started.md){ .md-button .md-button--primary }
+[Ways to Get Involved](docs/get-involved.md){ .md-button }
+
+## The Areas of Comms
+This site is home base, the guides, the hardware, how it all fits together. The mesh is for communicating and fun and the community is on [Discord](https://discord.gg/4VhKqbH39W) come over and join us!
+
+[Join the Discord](https://discord.gg/4VhKqbH39W){ .md-button .md-button--primary }
 
 ---
 

@@ -1,4 +1,4 @@
-## How to get started
+# Setup Guide
 *An easy beginners guide to the Welsh mesh*
 
 ---
@@ -14,6 +14,8 @@ To join you will need a small, cheap, **Long Range** radio that will join into t
 | **Heltec V3** | Best starter node (USB or Battery powered) | £20 |
 | **RAK WisBlock** | Best for Solar/Outdoor nodes | £40 |
 | **T-Beam** | Great for GPS tracking | £35 |
+
+Not sure which to go for? The [Node Choices](node-choices.md) page breaks down every board in a lot more detail.
 
 ## 2. Assemble your device
 Once you receive your device, you will probably need to assemble it. If you don't, continue to Part 3.

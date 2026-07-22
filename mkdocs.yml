@@ -1,5 +1,7 @@
 site_name: New Welsh Mesh
 site_url: https://welshmesh.pysgod.xyz/
+repo_url: https://github.com/dayer-local/nwm-www
+repo_name: dayer-local/nwm-www
 edit_uri: edit/main/docs/
 
 theme:
@@ -23,6 +25,7 @@ theme:
     - navigation.tabs
     - navigation.sections
     - content.code.copy
+    - content.action.edit
     - navigation.footer
 
 extra_css:
@@ -38,14 +41,15 @@ extra:
 
 nav:
   - Home: index.md
-  - Documentation:
-    - Getting Started: 
-        - Introduction: docs/getting-started.md
-        - Node Settings: docs/node-settings.md
-    - Guidelines: 
-        - Typical Practices: docs/mesh-etiquette.md
-    - Extra: 
-        - Node Choices: docs/node-choices.md
+  - Getting Started:
+    - Setup Guide: docs/getting-started.md
+    - Node Choices: docs/node-choices.md
+    - Node Configuration: docs/node-settings.md
+  - Using the Mesh:
+    - Mesh Etiquette: docs/mesh-etiquette.md
+  - Community:
+    - Get Involved: docs/get-involved.md
+    - Node Operators: docs/node-operators.md
 
 markdown_extensions:
   - admonition
