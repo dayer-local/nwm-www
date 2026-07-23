@@ -35,6 +35,9 @@ Mostly down to preference. There are other mesh systems out there, but we use Me
 ### Do you have an MQTT server
 No, we will never ever host an MQTT server for our mesh network, yes its great for communitcating long distance however we don't see the point of using MQTT because it defeats the entire purpose of LoRa Meshes. The point of the mesh is to connect via an offline, off-grid, secure mesh system, and using the internet ruins that.
 
+### How do I know my node's set up right?
+Export your config from the Meshtastic app and drop it into our [Setup Checker](../check-setup.md). It reads your settings right there in your browser, nothing gets uploaded, and tells you whether your region, preset, hop limit and name are how the Welsh Mesh needs them.
+
 ## Troubleshooting
 
 ### My node won't connect over Bluetooth

@@ -53,3 +53,6 @@ Visit the Meshtastic Web Flasher, then follow the numbered instructions below:
 You are now ready to connect to your new node and join the mesh!
 
 [Go to Node Configuration](node-settings.md){ .md-button .md-button--primary }
+
+!!! tip "Not sure it's set up right?"
+    Once you've configured your node, export its config from the app and run it through our [Setup Checker](../check-setup.md). It checks the important settings in a couple of seconds and tells you what to fix, all in your browser.

@@ -37,6 +37,7 @@ extra_css:
 
 extra_javascript:
   - javascripts/header-shrink.js
+  - javascripts/check-setup.js
 
 copyright: Copyright &copy; 2026 <a href="https://welshmesh.pysgod.xyz/copyright/">Pysgod Media<a/> / Not affiliated with Meshtastic LLC
 
@@ -53,6 +54,7 @@ nav:
     - Node Choices: docs/node-choices.md
     - Node Configuration: docs/node-settings.md
     - Antennas: docs/antennas.md
+  - Check Your Setup: check-setup.md
   - Understanding Your Node:
     - Device Roles: docs/device-roles.md
     - Rebroadcast & Intervals: docs/device-options.md

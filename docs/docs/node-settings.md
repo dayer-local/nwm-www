@@ -76,6 +76,9 @@ Tap the **Save** or **Send to Device** button (usually a paper airplane or save 
 
 That's it, you're on the mesh!
 
+!!! tip "Not sure it's set up right?"
+    Export your config from the app and run it through our [Setup Checker](../check-setup.md). It checks all of these settings in a couple of seconds and tells you what to fix, all in your browser.
+
 ---
 
 ## Guide for Repeater Nodes
