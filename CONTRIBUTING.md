@@ -7,7 +7,7 @@ This guide is about helping with the **website**. If you want to help with the a
 ## Ways to help
 
 - **Fix something that's wrong.** Typos, dead links, out-of-date guides, or advice that's just plain incorrect. If you spot it, you can fix it.
-- **Add yourself to the node list.** Running a node? Add it to the [Node Operators](docs/docs/node-operators.md) page so the rest of us know you're out there.
+- **Say hello.** Running a node? Let us know on the [Discord](https://discord.gg/4VhKqbH39W) so the rest of us know you're out there.
 - **Write or improve a guide.** If there's something you had to figure out the hard way, write it up so the next person doesn't have to.
 - **Help on Discord.** Not everything is a code change. Answering questions and welcoming new people is worth just as much. [Come and join us.](https://discord.gg/4VhKqbH39W)
 

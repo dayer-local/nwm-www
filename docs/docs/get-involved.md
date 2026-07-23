@@ -13,7 +13,7 @@ The most useful thing you can do is put a node on the air. Every node that joins
 
 If you haven't got a device yet, have a look at [Node Choices](node-choices.md) to pick one, then follow the [Setup Guide](getting-started.md) to get it on the mesh.
 
-Once you're up and running, add yourself to the [Node Operators](node-operators.md) list so the rest of us know you're there.
+Once you're up and running, let us know on the [Discord](https://discord.gg/4VhKqbH39W) so the rest of us know you're there.
 
 ## Run a repeater
 If you've got somewhere high up with a bit of power spare, a loft, a roof, the top of a hill, a fixed repeater helps coverage a lot. One well-placed repeater can connect two parts of the mesh that couldn't reach each other before.

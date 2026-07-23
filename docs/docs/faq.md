@@ -21,7 +21,7 @@ No, that's the whole point. The mesh is radio, node to node, so it keeps working
 Honest answer: it depends. LoRa is line of sight, so terrain matters more than anything. Two nodes with a clear view of each other can reach several kilometres. In a built-up area with buildings in the way, it'll be a lot less. The mesh works around this by passing messages through other nodes, so the more nodes there are, the better the reach for everyone.
 
 ### How big is the mesh?
-It's early days and still growing, mostly around Tonyrefail and the wider Rhondda at the moment. Have a look at the [Node Operators](node-operators.md) list to see who's on, and come and ask on the [Discord](https://discord.gg/4VhKqbH39W).
+It's early days and still growing, mostly around Tonyrefail and the wider Rhondda at the moment. Come and ask on the [Discord](https://discord.gg/4VhKqbH39W) to see who's about.
 
 ### Is what I send private?
 Not on the default channel. The main public channel uses a known key, so anyone on the mesh can read it. Treat it like a public space. If you want a private conversation, set up a separate channel with your own shared key. There's more on that in [Mesh Etiquette](mesh-etiquette.md).

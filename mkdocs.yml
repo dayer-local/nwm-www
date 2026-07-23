@@ -6,6 +6,7 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
+  custom_dir: overrides
   logo: nwm-white.png
   favicon: nwm-white.png
   palette: 
@@ -49,6 +50,7 @@ extra:
 
 nav:
   - Home: index.md
+  - Goodbye: goodbye.md
   - Getting Started:
     - Setup Guide: docs/getting-started.md
     - Node Choices: docs/node-choices.md
@@ -63,7 +65,6 @@ nav:
     - FAQ & Troubleshooting: docs/faq.md
   - Community:
     - Get Involved: docs/get-involved.md
-    - Node Operators: docs/node-operators.md
 
 markdown_extensions:
   - admonition
